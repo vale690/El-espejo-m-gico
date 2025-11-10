@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #faf6ff;
+    color: #5a4c6f;
+    text-align: center;
+}
+
+header {
+    padding: 15px 0;
+    background: #e9dbff;
+    box-shadow: 0 3px 12px rgba(178, 130, 255, 0.25);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo h1 {
+    font-size: 28px;
+    color: #b283ff;
+    font-weight: 600;
+}
+
+.hero {
+    padding: 30px 20px;
+}
+
+.hero h2 {
+    font-size: 26px;
+    color: #a46aff;
+    font-weight: 600;
+}
+
+.hero img {
+    width: 80%;
+    max-width: 350px;
+    border-radius: 14px;
+    margin-top: 22px;
+    box-shadow: 0 4px 14px rgba(166, 130, 255, 0.4);
+}
+
+.collection h3 {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #b283ff;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 340px;
+    margin: 12px auto;
+    padding: 12px 16px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(185, 155, 255, 0.25);
+}
+
+.item .price {
+    color: #a46aff;
+    font-weight: 600;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 18px;
+    background: #e9dbff;
+    font-size: 14px;
+    color: #6b5f7c;
+}
